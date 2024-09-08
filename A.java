@@ -11,9 +11,10 @@ public class A implements Runnable
 		A a = new A();
 		Thread t = new Thread(a, "NewThread");
 		t.setPriority(2); // Setting the priority of thread.
- 
+                       
 		System.out.println("Priority of Thread: " +t.getPriority());
 		System.out.println("Name of Thread: " +t.getName());
 		t.start();
+		//jagan;
 	}
 }
