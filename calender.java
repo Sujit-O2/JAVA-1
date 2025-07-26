@@ -1,4 +1,3 @@
-
 import java.io.*;
 import java.util.Calendar;
 import java.awt.*;
@@ -11,6 +10,7 @@ Label l1,l2,l3,l4,l5;
 Button s1,r1;
 int year,date,month;
 calender(){
+
 f2=new Frame("calendar");
 l1=new Label("Enter the Year:");
 l2=new Label("Enter the Month:");

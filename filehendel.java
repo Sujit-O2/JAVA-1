@@ -104,7 +104,7 @@ r2.setSelected(false);
 r1.setSelected(false);
         }
         if(e.getSource()==b1){
-      try ( FileWriter fw = new FileWriter("E:\\my files\\"+f1.getText()+".txt")){
+      try ( FileWriter fw = new FileWriter("P:\\my files\\"+f1.getText()+".txt")){
      fw.write(l1.getText()+" "+f1.getText());
 fw.write("\n"+l2.getText()+" "+f2.getText());
 fw.write("\n"+l3.getText()+" "+f3.getText());

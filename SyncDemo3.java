@@ -1,8 +1,6 @@
 // A Java program to demonstrate working of
 // synchronized.
 
-import java.io.*;
-import java.util.*;
 
 // A Class used to send a message
 class Sender {
@@ -22,14 +20,14 @@ class Sender {
 // Class for send a message using Threads
 class ThreadedSend extends Thread {
 	private String msg;
-	Sender sender;
+	Sender ss;
 
 	// Receives a message object and a string
 	// message to be sent
-	ThreadedSend(String m, Sender obj)
+	ThreadedSend(String msg, Sender obj)
 	{
-		msg = m;
-		sender = obj;
+		this.msg = msg;
+		ss = obj;
 	}
 
 	public void run()
@@ -39,7 +37,7 @@ class ThreadedSend extends Thread {
 		//synchronized (sender)
 		//{
 			// synchronizing the send object
-			sender.send(msg);
+			ss.send(msg);
 		//}
 	}
 }

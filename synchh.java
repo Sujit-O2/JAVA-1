@@ -1,4 +1,3 @@
-
 public class synchh{
      public static void main(String[] args) {
         synch aa=new synch();

@@ -67,7 +67,7 @@ f2.setText(null);
   f1.setText(String.valueOf(sum));
         }
          if(e.getSource()==b2){
-           sum=sum-Float.parseFloat(f2.getText()); 
+           sum=sum-Float.parseFloat(f2.getText());
            f2.setText(null);
           f1.setText(String.valueOf(sum));
         }
@@ -78,12 +78,13 @@ f2.setText(null);
         }
          if(e.getSource()==b4){
             sum=sum/Float.parseFloat(f2.getText());
-f1.setText(null);
+f2.setText(null);
   f1.setText(String.valueOf(sum));
         }
          if(e.getSource()==b5){
+          sum=sum%Float.parseFloat(f2.getText());
+          f2.setText(null);
             f1.setText(String.valueOf(sum));
-            sum=0;
         }
     }
     public static void main(String[] args) {

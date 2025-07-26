@@ -1,5 +1,4 @@
 
-import java.sql.Array;
 import java.util.*;
 public class sujit {
 public static void main(String[] args) {
@@ -51,44 +50,44 @@ aa.add(01);
 //        aa.add(6); 
 //         aa.add(7); 
 //          aa.add(8); 
-Queue aaa=new ArrayDeque<>();
+// Queue aaa=new ArrayDeque<>();
 
-aaa.add(11);
-  aaa.add(2); 
-    aaa.add("hello"); 
-     aaa.add(4); 
-      aaa.add(5); 
-       aaa.add(6); 
-        aaa.add(7); 
-         aaa.add(8); 
-       aaa.remove();
-Deque aaaa =new ArrayDeque() ;
-aaaa.add(01);
-  aaaa.add("hello"); 
-    aaaa.add('c'); 
-     aaaa.add(4.5); 
-      aaaa.add(5d); 
-       aaaa.add(6); 
-        aaaa.add(7); 
-        aaaa.add(8); 
-        aaaa.addFirst(10);
-        aaaa.removeFirst();
-        aaaa.removeLast();
-        Vector aaaaa=new Vector<>();
-aaaaa.add(10);
-aaaaa.add(1.3f);
-aaaaa.add(10d);
-aaaaa.add("kjdfuhgr");
-aaaaa.add('d');
-aaaaa.add(10);
-aaaaa.add(10);
-aaaaa.add(10);
+// aaa.add(11);
+//   aaa.add(2); 
+//     aaa.add("hello"); 
+//      aaa.add(4); 
+//       aaa.add(5); 
+//        aaa.add(6); 
+//         aaa.add(7); 
+//          aaa.add(8); 
+//        aaa.remove();
+// Deque aaaa =new ArrayDeque() ;
+// aaaa.add(01);
+//   aaaa.add("hello"); 
+//     aaaa.add('c'); 
+//      aaaa.add(4.5); 
+//       aaaa.add(5d); 
+//        aaaa.add(6); 
+//         aaaa.add(7); 
+//         aaaa.add(8); 
+//         aaaa.addFirst(10);
+//         aaaa.removeFirst();
+//         aaaa.removeLast();
+//         Vector aaaaa=new Vector<>();
+// aaaaa.add(10);
+// aaaaa.add(1.3f);
+// aaaaa.add(10d);
+// aaaaa.add("kjdfuhgr");
+// aaaaa.add('d');
+// aaaaa.add(10);
+// aaaaa.add(10);
+// aaaaa.add(10);
 for(int i=0;i<5;i++){
         System.out.println(aa.get(i));
        
 }
- System.out.println(aaa);
-        System.out.println(aaaa);
-        System.out.println(aaaaa);
+//  System.out.println(aaa);
+//         System.out.println(aaaa);
+//         System.out.println(aaaaa);
     }
 }

@@ -1,4 +1,4 @@
-
+import p2.avareja;
 import java.util.*;
 public class jaga {
     public static void main(String[] args) {
@@ -10,6 +10,9 @@ public class jaga {
         for(int i=0;i<a;i++){
             aa[i]=SE.nextInt();
         }
-  
+        float ave=avareja.avrage(aa,a);
+
+        System.out.println("the avrage value is: "+ave);
+        SE.close();
     }
 }
