@@ -48,7 +48,20 @@ public class InnerListNode {
     l3=l3.next;
    }
   }
+ public ListNode deleteDuplicates(ListNode head) {
+      ListNode l1=new ListNode(-101);
+      ListNode l2=l1;
+      while(head!=null){
+          if(head.val!=l2.val){
+          l2.next=new ListNode(head.val);
+          l2=l2.next;
 
+        }
+        head=head.next;
+        }
+      return l1.next;
+
+ }
   
 }
   
