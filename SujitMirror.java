@@ -44,4 +44,21 @@ class Solution {
         return Math.max(lD,rD)+1;
         
     }
+      public TreeNode sortedArrayToBST(int[] nums) {
+        return Checker(nums,0,nums.length-1);
+        
+    }
+      private TreeNode Checker(int[] nums, int left, int right) {
+        if(left>right)return null;
+        int mid=left+(right-left)/2;
+        TreeNode tt=new TreeNode(nums[mid]);
+        tt.left=Checker(nums,left,mid-1);
+        tt.right=Checker(nums,mid+1,right);
+        return tt;
+        
+
+
+    
+    }
+    
 }
